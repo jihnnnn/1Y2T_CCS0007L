@@ -1,0 +1,46 @@
+##### How to run Virtual Piano project STEPS #####
+
+1. Set-up SFML library for Dev-C++
+
+2. Download the SFML files here: https://drive.google.com/drive/folders/1TvS3LgmNcTmn77v-OnuBPH8PqjNgLend
+
+Download the Virtual Piano files here:
+https://drive.google.com/drive/folders/1G5xy9HY5Jcry2ybNMgocN4M_qJe6ZSLa?usp=drive_link
+
+
+3. Extract the both files. You may save the Virtual Piano on any location you want.
+
+BUT the SFML folder should be moved to your C: drive.
+
+
+4. On the Virtual Piano folder, do the shortcut 'Ctrl + H ' to open the Project Options
+
+
+5. On the "Parameters" tab, copy and paste the text below:
+
+-lsfml-graphics
+-lsfml-window
+-lsfml-system
+-lsfml-audio
+
+
+6. Then, move on the "Directories" tab, go to the "Library Directories" and click the folder icon on the bottom-right. Locate the SFML folder you've extracted in your C: drive.
+
+
+7. For "Library Directories" select the 'lib' folder inside SFML. After selecting, press OK then click "Add".
+
+Do this once again but for "Include Directories" now. "Include Directories" will need the 'include' folder.
+Click OK and Add after selecting.
+
+
+8. Everything should be able to run now. If there were some errors occuring, restart the Dev-C++ by closing and opening it again.
+
+
+#### KEY NOTES ###
+
+When reopening the project to run the Virtual Piano, you MUST open the Virtual Piano.dev NOT THE .cpp
+
+Running the .cpp will only show erors. So you should open the .dev files instead.
+
+
+Everything should work now. Thank you.
